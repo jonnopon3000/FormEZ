@@ -1,0 +1,60 @@
+html, body {
+	background: silver;
+	width: 100%;
+}
+header {
+	width: 100%;
+	text-align: center;
+}
+main {
+	width: 75%;
+	margin-left: 12.5%;
+	text-align: center;
+}
+
+span.required {
+	vertical-align: super;
+}
+
+.error {
+	text-align: left;
+	margin-left: 12.5%;
+	display: none;
+}
+.error.visible {
+	display: block;
+}
+
+.valid {
+	border: 3px solid green !important;
+}
+.invalid {
+	border: 3px solid red !important;
+}
+
+input:not([type="submit"]) {
+	width: 100%;
+	margin: 0 auto;
+}
+[disabled] {
+	opacity: 0.5 !important;
+	color: white !important;
+	background: black !important;
+	cursor: not-allowed !important;
+}
+input[type="submit"]:not([disabled]),
+#trigger input[type="button"] {
+	background: white !important;
+	color: black !important;
+	opacity: 1 !important;
+	cursor: pointer !important;
+	display: block !important;
+}
+
+#trigger {
+	text-align: center;
+}
+#trigger label, #trigger input[type="radio"], #trigger span {
+	width: auto !important;
+	display: inline !important;
+}

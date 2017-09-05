@@ -1,0 +1,16 @@
+{
+    "name": "formez",
+    "version": "0.1.0",
+    "author": "jonno",
+    "description": "jQuery Forms made EZ",
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-uglify": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-copy": "*",
+        "grunt-php": "*",
+        "grunt-contrib-cssmin": "*",
+        "grunt-shell": "*"
+    }
+}
